@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Dashboard App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Dashboard</h1>
+    <p>Simple JavaScript-powered dashboard</p>
+  </header>
+
+  <main>
+    <div class="card" id="timeCard">
+      <h2>Current Time</h2>
+      <p id="time"></p>
+    </div>
+
+    <div class="card">
+      <h2>System Status</h2>
+      <button onclick="showStatus()">Check Status</button>
+      <p id="status"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
